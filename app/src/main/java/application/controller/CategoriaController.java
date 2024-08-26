@@ -52,7 +52,10 @@ public String update(
     
     }
 
-@RequestMapping (value = "")
+@RequestMapping (value = "/update", method= RequestMedhod.POST)
+public String update(
+    @RequestParam("id") long id , 
+)
 
 
 
